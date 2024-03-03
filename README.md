@@ -23,3 +23,5 @@ Several key visualizations are included:
 - The top 10 products and firms with multiple recalls
 - Recalls by FDA Center
 
+## Results 
+The results section includes key findings from the project. For detailed visualizations and full analysis, refer to the results directory. 
