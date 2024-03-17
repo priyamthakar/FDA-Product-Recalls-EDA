@@ -16,32 +16,32 @@ Please note that the data provided on Kaggle is for informational purposes only 
 
 # Key FIndings 
 1.	Data Structure & Conversion
-After data type optimization, `product_type`, `product_classification`, `status`, and `recalling_firm_country` were converted to categorical variables for analytical efficiency.
-The dataset reflects a vast spectrum of the recall landscape, with 8,435 unique FEI numbers and 8,839 unique recalling firm names, and a notable 83,124 unique product IDs, showcasing the extensive range and diversity of recall instances. 
+- After data type optimization, `product_type`, `product_classification`, `status`, and `recalling_firm_country` were converted to categorical variables for analytical efficiency.
+- The dataset reflects a vast spectrum of the recall landscape, with 8,435 unique FEI numbers and 8,839 unique recalling firm names, and a notable 83,124 unique product IDs, showcasing the extensive range and diversity of recall instances. 
 2.	Recall Classifications
-Class II recalls were predominant with 59,962 instances, signaling a moderate health impact from the recalled products.
-Class I recalls numbered at 15,421, representing the most severe health risks, while Class III recalls were the least at 7,741, involving minor regulatory infractions.
+- Class II recalls were predominant with 59,962 instances, signaling a moderate health impact from the recalled products.
+- Class I recalls numbered at 15,421, representing the most severe health risks, while Class III recalls were the least at 7,741, involving minor regulatory infractions.
 3.	Product Type Recalls
-Devices had the highest number of recalls at 29,701, indicating a critical need for vigilance in this sector.
-Food/Cosmetics recalls stood at 24,117, while Drug recalls were noted at 15,143.
-Biologics, Veterinary, and Tobacco recalls were comparatively lower at 11,059, 3,096, and 8 respectively.
+- Devices had the highest number of recalls at 29,701, indicating a critical need for vigilance in this sector.
+- Food/Cosmetics recalls stood at 24,117, while Drug recalls were noted at 15,143.
+- Biologics, Veterinary, and Tobacco recalls were comparatively lower at 11,059, 3,096, and 8 respectively.
 4.	Geographical Distributions
-The United States had a significantly higher number of recalls at 79,707, with the top states being California (9,078), Florida (5,723), Illinois (4,779), New Jersey (4,318), and New York (4,021).
+- The United States had a significantly higher number of recalls at 79,707, with the top states being California (9,078), Florida (5,723), Illinois (4,779), New Jersey (4,318), and New York (4,021).
 5.	Temporal Recall Patterns 
-The year 2016 marked the peak in recalls with 8,938 incidents, while 2023 recorded the lowest at 1,910 so far.
-Monthly analysis revealed high recall counts in January (6,481), August (8,051), and December (7,333).
+- The year 2016 marked the peak in recalls with 8,938 incidents, while 2023 recorded the lowest at 1,910 so far.
+- Monthly analysis revealed high recall counts in January (6,481), August (8,051), and December (7,333).
 6.	Recall Trends & Status 
-The heatmap of the USA displayed count recalls and indicated geographical hotspots.
-Recall trend analysis highlighted December 2013 as having the highest recall, warranting investigation into specific events or regulatory changes during that time.
+- The heatmap of the USA displayed count recalls and indicated geographical hotspots.
+- Recall trend analysis highlighted December 2013 as having the highest recall, warranting investigation into specific events or regulatory changes during that time.
 7.	Center-Wise and Status-Wise Recall Distribution
-CDRH managed 29,701 recalls, CFSAN handled 24,117, CDER oversaw 15,143, CBER took care of 11,059, CVM had 3,096, and CTP dealt with only 8 recalls.
+- CDRH managed 29,701 recalls, CFSAN handled 24,117, CDER oversaw 15,143, CBER took care of 11,059, CVM had 3,096, and CTP dealt with only 8 recalls.
 For recall status, the dataset recorded 131 Class I, 844 Class II, and 56 Class III completed recalls; 1,684 Class I, 9,715 Class II, and 396 Class III ongoing recalls; and 13,606 Class I, 49,403 Class II, and 7,289 Class III terminated recalls.
 8.	Recalls in India
-The dataset documented 60 Class II, 13 Class III, and 5 Class I recalls occurring in India.
-Leading recalling firms in India include Mylan Laboratories Limited, Nashik FDF (13 recalls), and Hetero Labs Limited Unit V (9 recalls).
+- The dataset documented 60 Class II, 13 Class III, and 5 Class I recalls occurring in India.
+- Leading recalling firms in India include Mylan Laboratories Limited, Nashik FDF (13 recalls), and Hetero Labs Limited Unit V (9 recalls).
 9.	Text Analysis Model Performance
-Precision for recall status classification was excellent, with scores of 1.00 for "Completed," 0.88 for "Ongoing," and 0.90 for "Terminated."
-The model achieved an accuracy of 0.90 across 24,938 support cases but had varying success in recall identification, with an f1-score of 0.13 for "Completed," 0.55 for "Ongoing," and 0.94 for "Terminated."
+- Precision for recall status classification was excellent, with scores of 1.00 for "Completed," 0.88 for "Ongoing," and 0.90 for "Terminated."
+- The model achieved an accuracy of 0.90 across 24,938 support cases but had varying success in recall identification, with an f1-score of 0.13 for "Completed," 0.55 for "Ongoing," and 0.94 for "Terminated."
 
 
 # Visualizations
